@@ -23,7 +23,7 @@ frango_peito_frango 0.355
 frango_coxa_sobrecoxa 0.236
 frango_asa 0.118
 frango_moela_frango 0.284
-#frango_frango_assado 2.5
+
 
 # Custo de compra por animal
 custo_boi 4720
@@ -53,9 +53,9 @@ custo_bacon 40.80
 custo_linguica 30.60
 custo_peito_frango 26.50
 custo_coxa_sobrecoxa 15.30
-custo_asa 2000000.40
+custo_asa 20.40
 custo_moela_frango 15.30
-#custo_frango_assado 12
+
 
 # Espaço ocupado por cada animal (m2)
 espaco_animal_boi 1
@@ -87,7 +87,7 @@ espaco_peito_frango 0.01
 espaco_coxa_sobrecoxa 0.01
 espaco_asa 0.01
 espaco_moela_frango 0.005
-#espaco_frango_assado 0.2
+
 
 # Capacidade total de armazenamento (m2)
 capacidade_total_animais 30
@@ -118,4 +118,3 @@ demanda_peito_frango 51.54
 demanda_coxa_sobrecoxa 58.50
 demanda_asa 40.73
 demanda_moela_frango 17.82
-#demanda_frango_assado 46

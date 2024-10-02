@@ -1,0 +1,30 @@
+Resultados da Otimização:
+Número de bois comprados: 2.0
+Número de porcos comprados: 3.0
+Número de frangos comprados: 125.0
+Quantidade de file_mignons comprados: 39.0 kg
+Quantidade de picanhas comprados: 46.0 kg
+Quantidade de alcatras comprados: 19.0 kg
+Quantidade de contra_files comprados: 10.0 kg
+Quantidade de cha_dentros comprados: 25.0 kg
+Quantidade de cha_foras comprados: 25.0 kg
+Quantidade de lagartos comprados: 29.0 kg
+Quantidade de patinhos comprados: 20.0 kg
+Quantidade de acems comprados: 0.0 kg
+Quantidade de musculos comprados: 13.0 kg
+Quantidade de paletas comprados: 0.0 kg
+Quantidade de peitos comprados: 0.0 kg
+Quantidade de costela_s_ossos comprados: 0.0 kg
+Quantidade de costela_c_ossos comprados: 0.0 kg
+Quantidade de figados comprados: 23.0 kg
+Quantidade de costela_suinas comprados: 38.0 kg
+Quantidade de lombos comprados: 3.0 kg
+Quantidade de pernils comprados: 3.0 kg
+Quantidade de bacons comprados: 0.0 kg
+Quantidade de linguicas comprados: 23.0 kg
+Quantidade de peito_frangos comprados: 8.0 kg
+Quantidade de coxa_sobrecoxas comprados: 29.0 kg
+Quantidade de asas comprados: 26.0 kg
+Quantidade de moela_frangos comprados: 0.0 kg
+
+Custo total: R$ 27129.5

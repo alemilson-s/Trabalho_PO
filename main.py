@@ -2,6 +2,24 @@ from pyomo.environ import *
 from pyomo.opt import SolverFactory
 
 
+def gerar_relatorio(model, caminho_arquivo='relatorio_otimizacao.txt'):
+    with open(caminho_arquivo, 'w') as arquivo:
+        # Escrevendo os resultados dos animais comprados
+        arquivo.write("Resultados da Otimização:\n")
+        for a in model.Animais:
+            arquivo.write(f"Número de {a}s comprados: {model.W[a].value}\n")
+
+        # Escrevendo os resultados das peças compradas, exceto frango assado
+        for p in model.Pecas:
+            if p != 'frango_assado':
+                arquivo.write(f"Quantidade de {p}s comprados: {model.P[p].value} kg\n")
+
+        # Escrevendo o custo total
+        arquivo.write(f"\nCusto total: R$ {model.obj()}\n")
+
+    print(f"Relatório gerado com sucesso em: {caminho_arquivo}")
+
+
 def read_parameters(file_path):
     q = {}
     C_W = {}
@@ -53,7 +71,6 @@ def read_parameters(file_path):
     return q, C_W, C_P, D, S_a, S_p, S_total_animais, S_total_pecas
 
 
-# Criando o modelo
 model = ConcreteModel()
 
 model.Animais = Set(initialize=['boi', 'porco', 'frango'])
@@ -123,6 +140,6 @@ for p in model.Pecas:
     if (p != 'frango_assado'):
         print(f"Quantidade de {p}s comprados: {model.P[p].value} kg")
 
-
 print("\nCusto total: R$", model.obj())
 
+gerar_relatorio(model);
