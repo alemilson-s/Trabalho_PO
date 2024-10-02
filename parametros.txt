@@ -1,0 +1,117 @@
+# Parâmetros de q (kg por animal)
+boi_file_mignon 4
+boi_picanha 12
+boi_alcatra 20
+boi_contra_file 25
+boi_cha_dentro 12
+boi_cha_fora 12
+boi_lagarto 10
+boi_patinho 15
+boi_acem 25
+boi_musculo 15
+boi_paleta 25
+boi_peito 25
+boi_costela_s_osso 25
+boi_costela_c_osso 45
+boi_figado 3
+porco_costela_suina 3
+porco_lombo 11
+porco_pernil 13
+porco_bacon 10
+porco_linguica 10
+frango_peito_frango 0.355
+frango_coxa_sobrecoxa 0.236
+frango_asa 0.118
+frango_file_frango 0.284
+
+# Custo de compra por animal
+custo_boi 1000
+custo_porco 150
+custo_frango 15
+
+# Custo de compra por peça
+custo_file_mignon 80
+custo_picanha 50
+custo_alcatra 45
+custo_contra_file 40
+custo_cha_dentro 38
+custo_cha_fora 36
+custo_lagarto 30
+custo_patinho 28
+custo_acem 25
+custo_musculo 20
+custo_paleta 22
+custo_peito 24
+custo_costela_s_osso 30
+custo_costela_c_osso 25
+custo_figado 20
+custo_costela_suina 15
+custo_lombo 20
+custo_pernil 25
+custo_bacon 18
+custo_linguica 15
+custo_peito_frango 10
+custo_coxa_sobrecoxa 9
+custo_asa 8
+custo_file_frango 12
+
+# Espaço ocupado por cada animal (m2)
+espaco_animal_boi 10
+espaco_animal_porco 10
+espaco_animal_frango 10
+
+# Espaço ocupado por peça (m2)
+espaco_file_mignon 2
+espaco_picanha 3
+espaco_alcatra 3
+espaco_contra_file 4
+espaco_cha_dentro 3
+espaco_cha_fora 3
+espaco_lagarto 2
+espaco_patinho 3
+espaco_acem 4
+espaco_musculo 5
+espaco_paleta 4
+espaco_peito 4
+espaco_costela_s_osso 3
+espaco_costela_c_osso 4
+espaco_figado 2
+espaco_costela_suina 3
+espaco_lombo 3
+espaco_pernil 4
+espaco_bacon 2
+espaco_linguica 2
+espaco_peito_frango 2
+espaco_coxa_sobrecoxa 2
+espaco_asa 1
+espaco_file_frango 2
+
+# Capacidade total de armazenamento
+capacidade_total_animais 100000
+capacidade_total_pecas 100000
+
+# Demanda por peça
+demanda_file_mignon 46.58
+demanda_picanha 69.17
+demanda_alcatra 58.25
+demanda_contra_file 59.50
+demanda_cha_dentro 48.53
+demanda_cha_fora 48.07
+demanda_lagarto 48.36
+demanda_patinho 49.07
+demanda_acem 36.88
+demanda_musculo 42.61
+demanda_paleta 37.07
+demanda_peito 37.52
+demanda_costela_s_osso 30.49
+demanda_costela_c_osso 29.23
+demanda_figado 28.06
+demanda_costela_suina 46.07
+demanda_lombo 35.25
+demanda_pernil 41.06
+demanda_bacon 28.85
+demanda_linguica 52.25
+demanda_peito_frango 51.54
+demanda_coxa_sobrecoxa 58.50
+demanda_asa 40.73
+demanda_file_frango 45.88
